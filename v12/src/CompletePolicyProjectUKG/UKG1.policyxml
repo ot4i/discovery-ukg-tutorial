@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="kronos" policyName="UKG1" policyTemplate="online_v1_oauth2_password">
+    <credentialName>CompletePolicyProjectUKG_UKG1</credentialName>
+    <applicationVersion>v1</applicationVersion>
+    <applicationType>online</applicationType>
+    <authenticationMethod>OAUTH2_PASSWORD</authenticationMethod>
+    <endpointUrl>REPLACE_WITH_YOUR_ENDPOINT_URL</endpointUrl>
+  </policy>
+</policies>
