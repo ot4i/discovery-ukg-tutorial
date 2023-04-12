@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "personId": {
+        "displayOrder": 1,
+        "title": "Person ID",
+        "description": "The employee's person ID",
+        "type": "number"
+      },
+      "personNumber": {
+        "displayOrder": 2,
+        "title": "Person number",
+        "description": "The employee's person number",
+        "type": "string"
+      },
+      "fullName": {
+        "displayOrder": 3,
+        "title": "Full name",
+        "description": "The employee's full name",
+        "type": "string"
+      },
+      "displayName": {
+        "displayOrder": 4,
+        "title": "Display name",
+        "description": "The employee's display name",
+        "type": "string"
+      }
+    },
+    "title": "employee",
+    "additionalProperties": false
+  },
+  "type": "array",
+  "title": "employee"
+}
